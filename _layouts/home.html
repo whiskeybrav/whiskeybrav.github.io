@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+	{% include head.html %}
+	<link rel="stylesheet" href="/assets/css/home.css">
+</head>
+
+<body>
+	<section class="hero is-primary is-bold is-info">
+		<div id="particles"></div>
+		<div class="hero-body">
+			<div class="container">
+				<p class="subtitle">
+					Open source @
+				</p>
+				<p class="title has-text-monospaced">
+					Whiskey Bravo
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<div class="container content">
+			{{content}}
+		</div>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script src="/assets/js/home.js"></script>
+</body>
+
+</html>
